@@ -15,7 +15,9 @@ const styles = StyleSheet.create({
 const AppBar = () => {
   return (
     <View style={styles.container}>
-        <ScrollView horizontal>
+        <ScrollView horizontal contentContainerStyle={{
+    gap: 10,
+  }}>
             <Pressable onPress={() => {}}>
         <Text>Repositories</Text>
       </Pressable>
